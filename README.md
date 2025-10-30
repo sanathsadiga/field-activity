@@ -154,10 +154,3 @@ If you already have the remote configured, just `git add`, `git commit` and `git
 MIT (adjust as you prefer)
 
 ---
-
-If you'd like, I can also:
-- Split the `AuthContext` hook into a dedicated file (cleans up ESLint rule exemptions),
-- Add a small healthcheck endpoint, or
-- Add a short Postman collection / cURL examples for the routes.
-
-Happy hacking!
