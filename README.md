@@ -65,6 +65,7 @@ client/
     - `papers` is an array of objects: { type: 'VK'|'VV'|'PV'|'UV', supply: Number, retail: Number, net: Number }
     - Example (in stored document):
       - `papers: [{ type: 'VK', supply: 100, retail: 10, net: 90 }, ...]`
+````
 
 
 field-activity — short guide for a new collaborator
