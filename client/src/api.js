@@ -11,4 +11,8 @@ export const me = (token) => api.get('/auth/me', { headers: { Authorization: `Be
 export const getAdminAnalytics = (token) =>
   api.get('/admin/analytics', { headers: { Authorization: `Bearer ${token}` } });
 
+export const submitEntry = (data, token) => api.post('/entries', data, { headers: { Authorization: `Bearer ${token}` } });
+export const getEntries = (params, token) => api.get('/entries', { params, headers: { Authorization: `Bearer ${token}` } });
+export const getEntryStats = (token) => api.get('/entries/stats', { headers: { Authorization: `Bearer ${token}` } });
+
 export default api;
