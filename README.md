@@ -65,17 +65,17 @@ client/
     - `papers` is an array of objects: { type: 'VK'|'VV'|'PV'|'UV', supply: Number, retail: Number, net: Number }
     - Example (in stored document):
       - `papers: [{ type: 'VK', supply: 100, retail: 10, net: 90 }, ...]`
-*** REWRITTEN README BELOW (clean, teacher-style) ***
 
-# field-activity — short guide for a new collaborator
+
+field-activity — short guide for a new collaborator
 
 Read this to learn what the project does, how to run it, what is already implemented, and how to add an Admin module. Keep this open while you work.
 
-## 1) What this project is (one sentence)
+1) What this project is (one sentence)
 
 - A small MERN app: React client + Express server + MongoDB. Users submit field forms. Admins analyze submissions.
 
-## 2) Quick start (3 commands)
+2) Quick start (3 commands)
 
 Start the server:
 ```bash
